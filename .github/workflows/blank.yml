@@ -1,0 +1,14 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on: workflow_dispatch
+jobs: 
+  firsst-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hello GitHub"
+      - name: Print goodbye
+        run: echo "Good bye"
